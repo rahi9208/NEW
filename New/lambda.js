@@ -5,15 +5,6 @@ exports.handler = function (event, context, callback) {
 
 
 
-	FUNC.func();
 
-
-
-
-
-
-
-
-
-	callback(null, 'Successfully executed');
+	callback(null, FUNC.func());
 }
